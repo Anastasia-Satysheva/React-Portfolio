@@ -1,0 +1,29 @@
+#profile-pic {
+	width: 200px;
+	float: left;
+	margin: 10px 25px 10px 0px;
+}
+
+@media screen and (max-width: 980px) {
+	#profile-pic {
+		width: 100%;
+		float: none;
+		margin: 10px 0px 10px 0px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#profile-pic {
+		float: left;
+		margin: 10px 25px 10px 0px;
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#profile-pic {
+		width: 100%;
+		float: none;
+		margin: 10px 0px 10px 0px;
+	}
+}

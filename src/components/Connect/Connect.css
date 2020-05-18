@@ -1,0 +1,38 @@
+.middle-bar-content-box__connect {
+	float: right;
+	width: 210px;
+}
+
+.hr__contact {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	height: 2px;
+	background-color: #eeeeee;
+}
+
+.contact-link-spacer {
+	float: left;
+	width: 14px;
+	height: 10px;
+}
+
+.img__contact-link {
+	float: left;
+	height: 60px;
+	width: 60px;
+	margin-top: 5px;
+}
+
+.img__contact-link:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 768px) {
+    .middle-bar-content-box__connect {
+		float: none;
+		margin: 15px 0px 15px 0px;
+		padding: 15px 5% 15px 5%; 
+		width: 90%;
+		overflow: auto;
+	}
+}

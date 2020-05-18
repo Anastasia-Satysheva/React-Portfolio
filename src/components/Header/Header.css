@@ -1,0 +1,94 @@
+.top-bar {
+	overflow: auto;
+	background-color: #ffffff;
+	border-bottom: solid 2px #cccccc;
+}
+
+.h1__top-bar {
+	color: #ffffff;
+}
+
+.top-wrap {
+	overflow: auto;
+	width: 960px;
+	margin: auto;
+}
+
+.top-bar-name {
+	float: left;
+	background-color: #4aaaa5;
+	padding: 22px 30px 22px 30px;
+}
+
+.top-bar-navigation {
+ 	float: right;
+ 	overflow: auto;
+ 	margin: 0px 0px 0px 0px;
+	padding: 35px 0px 5px 0px;
+ 	color: #dddddd;
+}
+
+.nav-link {
+	color: #777777;
+}
+
+.nav-link:hover {
+	color: #4aaaa5;
+}
+
+.nav-link-wrap {
+	float: left;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+.nav-link-spacer {
+	float: left;
+	margin: 0px 5px 0px 5px;
+}
+
+@media screen and (max-width: 980px) {
+    .top-wrap {
+		width: 730px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+    .top-wrap {
+		width: 90%;
+		padding: 0px 5% 0px 5%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+    .top-wrap {
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+        position: static;
+    }
+    .top-bar-name {
+        float: none;
+        padding: 22px 0px 22px 0px;
+        width: 100%;
+        text-align: center;
+        background-color: #4aaaa5;
+    }
+    
+    .top-bar-navigation {
+         float: none;
+         margin: 0px 0px 0px 0px;
+         padding: 35px 0px 35px 0px;
+         width: 100%;
+         text-align: center;
+         color: #dddddd;
+    }
+    
+    .nav-link-wrap {
+        float: left;
+        width: 32%;
+    }
+    .nav-link-spacer {
+        float: left;
+        margin: 0px 0px 0px 0px;
+    }
+}

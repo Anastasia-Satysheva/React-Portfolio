@@ -1,0 +1,70 @@
+body {
+	background-image: url("/assets/images/background.png");
+	margin: 0;
+	padding: 0;
+}
+
+hr {
+	border: 0px;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-weight: bold;
+	color: #4aaaa5;
+}
+
+button {
+	border: none;
+	padding: 10px 35px 10px 35px;
+	background-color: #4aaaa5;
+	font-size: large;
+	color: #ffffff;
+}
+
+button:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+}
+
+h1 {
+	font-size: xx-large;
+	line-height: 1.5;
+}
+
+h2 {
+	font-size: x-large;
+}
+
+h3 {
+	font-size: large;
+
+}
+
+p {
+	line-height: 2;
+	margin: 10px 0px 10px 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.git {
+	width: 300px;
+	height: auto;
+}
+
+.modal-btn2{
+	margin-right: 45px;
+	float: right;
+}
+
+.modal-btn1{
+	margin-left: 45px;
+	float: left;
+}
+
+#h_45{
+	margin-left:25px ;
+}
